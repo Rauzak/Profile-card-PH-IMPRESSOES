@@ -167,8 +167,9 @@ body {
       gap: 1.5rem;
     }
 
-    @media (min-width: 400px) {
+    @media (max-width: 800px) {
       min-width: 250px;
+      flex-direction: column;
     }
 
     & > button {
